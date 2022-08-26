@@ -1,0 +1,87 @@
+@import 'general';
+@import 'mixin';
+@import 'variables';
+@import 'block/blocks';
+
+.hero__color{
+   
+   background: linear-gradient(180deg, #06476B 0%, #000000 100%);
+   position: relative;
+   top: 0;
+   left: 0;
+}
+.hero-img{
+    width: 100%;
+    
+}
+.banner__text{
+    padding-left: 120px;
+    padding-top: 20px;
+    color: #ffff;
+}
+.line{
+    width: 120px;
+    border: 1px solid #FFFFFF; 
+    margin-left: 170px;
+    margin-top: 20px;
+    height: 0px;
+}
+.banner__img{
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+    
+    
+}
+.banner__img{
+    
+    position: absolute;
+    left: 10px;
+    top: 170px;
+ 
+}
+.hero__image img{
+   width: 260px;
+   height: 325px;
+   margin: 5px;
+}
+.hero__right-img{
+    position: absolute;
+    width: 680px;
+    height: 530px;
+    position: relative;
+    top: -85px;
+    left: 629px;
+}
+
+.hero__right-text{
+    color: #000;
+    position: absolute;
+    top: 320px;
+    left: 1030px;
+}
+.hero__button {
+    position: absolute;
+    top: 420px;
+    left: 1150px;
+    width: 102px;
+    height: 33px;
+    border: 1px solid #000;
+    padding-left: 15px;
+    
+
+}
+.hero__a{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    
+}

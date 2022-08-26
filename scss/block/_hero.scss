@@ -1,0 +1,22 @@
+.hero{
+    background-color: #1f1f11 ;
+    height: 80px;
+    box-sizing: border-box;
+     
+    
+
+}
+.hero__inner{
+  display: flex;
+   padding-top: 29px;
+   list-style-type: none;
+   justify-content: space-between;
+   margin-left: 180px;
+   
+   
+}
+.hero__inner a{
+    color: white;
+    text-decoration: none;
+}
+
